@@ -1,1228 +1,1063 @@
-
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-
-```
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Assessoria Jurídica Especializada para MEI e Pequenas Empresas | Alessandro Magno Sociedade Individual de Advocacia</title>
-
-<meta name="description" content="Assessoria jurídica especializada para MEI, Simples Nacional, PGMEI, DAS-MEI e pequenas empresas. Orientação jurídica empresarial e tributária em Teresina-PI.">
-
-<meta name="keywords" content="assessoria jurídica para MEI, advogado para MEI, advogado MEI, assessoria MEI, consultoria para MEI, PGMEI, DAS MEI, DAS-MEI, Simples Nacional, advogado Simples Nacional, assessoria Simples Nacional, pequenas empresas, assessoria jurídica empresarial, advogado empresarial, consultoria jurídica empresarial, regularização MEI, débitos MEI, parcelamento MEI, Receita Federal, obrigações MEI, direito tributário, direito empresarial, serviços advocatícios, advogado em Teresina, advogado Piauí">
-
-<meta name="author" content="Alessandro Magno Sociedade Individual de Advocacia">
-
-<meta name="robots" content="index, follow">
-
-<link rel="canonical" href="https://seudominio.com.br/">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Assessoria Jurídica Especializada para MEI e Pequenas Empresas">
-<meta property="og:description" content="Assessoria jurídica empresarial e tributária para MEI, Simples Nacional, PGMEI e pequenas empresas.">
-<meta property="og:url" content="https://seudominio.com.br/">
-
-<!-- Favicon -->
-<link rel="icon" href="favicon.ico">
-
-<style>
-    :root {
-        --primary: #0b2d4d;
-        --primary-dark: #071f35;
-        --secondary: #c99b3b;
-        --secondary-dark: #a87d24;
-        --light: #f5f7fa;
-        --white: #ffffff;
-        --text: #25313c;
-        --muted: #687684;
-        --border: #e1e6eb;
-        --success: #198754;
-        --shadow: 0 10px 35px rgba(0,0,0,.08);
-        --radius: 12px;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Sul Móveis | Móveis e Decoração desde 2018 - Guarapari/ES</title>
+  <meta name="description" content="Sul Moveis LTDA - Móveis e decoração em Guarapari/ES. Desde 2018 oferecendo qualidade, estilo e atendimento personalizado para transformar sua casa.">
+  <meta name="keywords" content="móveis guarapari, decoração espírito santo, móveis planejados, sofás, camas, sul móveis">
+  <meta name="author" content="Sul Moveis LTDA">
+  <meta property="og:title" content="Sul Móveis | Móveis e Decoração desde 2018">
+  <meta property="og:description" content="Desde 2018 oferecendo móveis e decoração de qualidade em Guarapari/ES.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://placehold.co/1200x630/f5f0eb/2C1810?text=Sul+Moveis">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    /* RESET & BASE */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-        font-family: Arial, Helvetica, sans-serif;
-        color: var(--text);
-        background: var(--white);
-        line-height: 1.7;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #2C1810;
+      background: #FFFFFF;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
     }
 
-    a {
-        color: inherit;
-        text-decoration: none;
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+
+    @media (max-width: 768px) { .container { padding: 0 1.5rem; } }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4, .logo { font-family: 'Playfair Display', serif; }
+
+    h1 { font-size: 4rem; font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; }
+    h2 { font-size: 2.5rem; font-weight: 600; margin-bottom: 1rem; position: relative; display: inline-block; }
+    h2:after {
+      content: ''; position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%);
+      width: 60px; height: 3px; background: linear-gradient(90deg, #C49A6C, #E8C39E); border-radius: 3px;
+    }
+    .section-header h2:after { left: 50%; transform: translateX(-50%); }
+    h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.5rem; }
+      h2 { font-size: 2rem; }
+      h3 { font-size: 1.25rem; }
     }
 
-    img {
-        max-width: 100%;
-    }
-
-    .container {
-        width: min(1120px, 92%);
-        margin: auto;
-    }
-
-    header {
-        background: var(--primary);
-        color: white;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 2px 15px rgba(0,0,0,.15);
-    }
-
-    .nav {
-        min-height: 76px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 30px;
-    }
-
-    .logo {
-        font-size: 19px;
-        font-weight: 700;
-        max-width: 330px;
-        line-height: 1.25;
-    }
-
-    .logo span {
-        color: var(--secondary);
-    }
-
-    nav ul {
-        list-style: none;
-        display: flex;
-        gap: 24px;
-        align-items: center;
-    }
-
-    nav a {
-        font-size: 14px;
-        font-weight: 600;
-        color: #fff;
-        transition: .2s;
-    }
-
-    nav a:hover {
-        color: var(--secondary);
-    }
-
-    .hero {
-        background:
-            linear-gradient(rgba(7,31,53,.91), rgba(11,45,77,.94)),
-            radial-gradient(circle at top right, #37668d, transparent 50%);
-        color: white;
-        padding: 100px 0 90px;
-    }
-
-    .hero-content {
-        max-width: 850px;
-    }
-
-    .badge {
-        display: inline-block;
-        border: 1px solid rgba(255,255,255,.3);
-        padding: 7px 15px;
-        border-radius: 50px;
-        font-size: 13px;
-        margin-bottom: 20px;
-        color: #f7d78e;
-    }
-
-    h1 {
-        font-size: clamp(35px, 5vw, 58px);
-        line-height: 1.08;
-        margin-bottom: 24px;
-    }
-
-    .hero p {
-        font-size: 19px;
-        max-width: 760px;
-        color: #e6edf4;
-        margin-bottom: 30px;
-    }
-
-    .buttons {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
-    }
-
+    /* BUTTONS */
     .btn {
-        display: inline-block;
-        padding: 14px 23px;
-        border-radius: 7px;
-        font-weight: 700;
-        transition: .2s;
+      display: inline-flex; align-items: center; gap: 0.75rem; padding: 1rem 2rem;
+      border-radius: 50px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;
+      cursor: pointer; border: none; font-size: 0.9rem; letter-spacing: 0.5px;
     }
-
     .btn-primary {
-        background: var(--secondary);
-        color: #fff;
+      background: linear-gradient(135deg, #C49A6C, #B8865B); color: #FFFFFF;
+      box-shadow: 0 4px 15px rgba(196, 154, 108, 0.3);
     }
-
     .btn-primary:hover {
-        background: var(--secondary-dark);
-        transform: translateY(-2px);
+      transform: translateY(-3px); box-shadow: 0 8px 25px rgba(196, 154, 108, 0.4);
+      background: linear-gradient(135deg, #B8865B, #A87A4A);
+    }
+    .btn-outline { background: transparent; border: 2px solid #C49A6C; color: #C49A6C; }
+    .btn-outline:hover { background: #C49A6C; color: #FFFFFF; transform: translateY(-3px); }
+    .btn-lg { padding: 1.2rem 2.5rem; font-size: 1rem; }
+
+    /* NAVIGATION */
+    .nav {
+      position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(10px); box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+      z-index: 1000; padding: 1rem 0; transition: all 0.3s ease;
+    }
+    .nav.scrolled { padding: 0.75rem 0; background: rgba(255, 255, 255, 0.98); }
+    .nav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .nav-brand {
+      display: flex; align-items: center; gap: 0.75rem; font-size: 1.5rem; font-weight: 700;
+      text-decoration: none; color: #2C1810; font-family: 'Playfair Display', serif;
+    }
+    .nav-brand svg { width: 32px; height: 32px; color: #C49A6C; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a {
+      text-decoration: none; color: #4A4A4A; font-weight: 500; transition: color 0.3s; position: relative;
+    }
+    .nav-links a:after {
+      content: ''; position: absolute; bottom: -5px; left: 0; width: 0; height: 2px;
+      background: #C49A6C; transition: width 0.3s;
+    }
+    .nav-links a:hover:after, .nav-links a.active:after { width: 100%; }
+    .nav-links a:hover { color: #C49A6C; }
+    .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #2C1810; }
+
+    @media (max-width: 992px) {
+      .nav-links {
+        display: none; position: absolute; top: 100%; left: 0; right: 0; background: #FFFFFF;
+        flex-direction: column; padding: 1.5rem; gap: 1rem; box-shadow: 0 10px 20px rgba(0,0,0,0.1); text-align: center;
+      }
+      .nav-links.active { display: flex; }
+      .mobile-menu-btn { display: block; }
     }
 
-    .btn-outline {
-        border: 1px solid rgba(255,255,255,.5);
-        color: #fff;
+    /* HERO */
+    .hero {
+      position: relative; min-height: 100vh; display: flex; align-items: center;
+      padding: 8rem 0 5rem; background: linear-gradient(135deg, #2C1810 0%, #4A2A1F 50%, #2C1810 100%); overflow: hidden;
+    }
+    .hero-bg-pattern {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.05"><path fill="none" stroke="%23FFFFFF" stroke-width="0.5" d="M20,20 L80,20 M20,30 L80,30 M20,40 L80,40 M20,50 L80,50 M20,60 L80,60 M20,70 L80,70 M20,80 L80,80 M30,20 L30,80 M40,20 L40,80 M50,20 L50,80 M60,20 L60,80 M70,20 L70,80"/><circle cx="50" cy="50" r="8" fill="none" stroke="%23FFFFFF" stroke-width="0.5"/><circle cx="50" cy="50" r="15" fill="none" stroke="%23FFFFFF" stroke-width="0.5"/></svg>');
+      background-repeat: repeat; opacity: 0.1;
+    }
+    .hero-content { position: relative; max-width: 700px; color: #FFFFFF; z-index: 2; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px); padding: 0.6rem 1.2rem; border-radius: 50px; font-size: 0.85rem;
+      margin-bottom: 2rem; border: 1px solid rgba(255,255,255,0.2);
+    }
+    .hero-badge i { font-size: 1rem; }
+    .hero-desc { font-size: 1.2rem; margin: 1.5rem 0; opacity: 0.9; line-height: 1.8; }
+    .hero-stats { display: flex; gap: 2rem; margin: 2rem 0; }
+    .hero-stat { text-align: center; }
+    .hero-stat .number { font-size: 2rem; font-weight: 700; color: #C49A6C; font-family: 'Playfair Display', serif; }
+    .hero-stat .label { font-size: 0.8rem; opacity: 0.8; }
+    .hero-disclaimer {
+      display: flex; gap: 1rem; background: rgba(0,0,0,0.4); backdrop-filter: blur(8px);
+      padding: 1rem 1.5rem; border-radius: 1rem; font-size: 0.75rem; margin: 1.5rem 0;
+      border-left: 3px solid #C49A6C;
+    }
+    .hero-buttons { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 1rem; }
+
+    .floating-shape {
+      position: absolute; border-radius: 50%; background: rgba(196, 154, 108, 0.1);
+      filter: blur(60px); z-index: 1;
+    }
+    .shape-1 { width: 300px; height: 300px; top: 20%; right: -100px; }
+    .shape-2 { width: 200px; height: 200px; bottom: 10%; left: -50px; }
+
+    /* STATS SECTION */
+    .stats-section {
+      background: linear-gradient(135deg, #FAF7F4 0%, #F5F0EB 100%);
+      padding: 4rem 0; margin-top: -2rem; position: relative; z-index: 5;
+    }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; text-align: center; }
+    .stat-card {
+      background: #FFFFFF; padding: 2rem; border-radius: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s;
+    }
+    .stat-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    .stat-icon {
+      width: 70px; height: 70px; background: linear-gradient(135deg, #C49A6C20, #E8C39E20);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1.5rem; font-size: 2rem; color: #C49A6C;
+    }
+    .stat-number { font-size: 2.8rem; font-weight: 700; color: #2C1810; font-family: 'Playfair Display', serif; }
+    .stat-label { color: #6B4E3A; font-size: 0.9rem; font-weight: 500; }
+
+    @media (max-width: 768px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+      .stat-card { padding: 1.5rem; }
+      .stat-number { font-size: 2rem; }
     }
 
-    .btn-outline:hover {
-        background: rgba(255,255,255,.1);
+    /* SECTIONS */
+    .section { padding: 5rem 0; }
+    .section-muted { background: #FAF7F4; }
+    .section-header { text-align: center; max-width: 700px; margin: 0 auto 3rem; }
+    .section-subtitle {
+      color: #C49A6C; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem;
+      font-weight: 600; margin-bottom: 1rem; display: inline-block;
     }
 
-    section {
-        padding: 80px 0;
+    /* PRODUCT CARDS */
+    .products-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; }
+    .product-card {
+      background: #FFFFFF; border-radius: 1.5rem; overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: all 0.3s; position: relative;
+    }
+    .product-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    .product-image {
+      height: 250px; background: linear-gradient(135deg, #F5F0EB, #E8E0D8);
+      display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;
+    }
+    .product-image i { font-size: 4rem; color: #C49A6C; transition: transform 0.3s; }
+    .product-card:hover .product-image i { transform: scale(1.1); }
+    .product-tag {
+      position: absolute; top: 1rem; right: 1rem; background: #C49A6C; color: #FFFFFF;
+      padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.7rem; font-weight: 600;
+    }
+    .product-info { padding: 1.5rem; text-align: center; }
+    .product-info h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .product-info p { color: #6B4E3A; font-size: 0.85rem; }
+
+    @media (max-width: 1024px) { .products-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 640px) { .products-grid { grid-template-columns: 1fr; } }
+
+    /* SERVICES GRID */
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .service-card {
+      background: #FFFFFF; padding: 2.5rem 2rem; border-radius: 1.5rem; text-align: center;
+      transition: all 0.3s; box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+    .service-icon {
+      width: 80px; height: 80px; background: linear-gradient(135deg, #C49A6C20, #E8C39E20);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1.5rem; font-size: 2.2rem; color: #C49A6C;
+    }
+    .service-card h3 { font-size: 1.3rem; margin-bottom: 1rem; }
+    .service-card p { color: #6B4E3A; line-height: 1.7; }
+
+    @media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
+
+    /* TESTIMONIALS */
+    .testimonials-section {
+      background: linear-gradient(135deg, #2C1810 0%, #3A241C 100%);
+      color: #FFFFFF; position: relative; overflow: hidden;
+    }
+    .testimonials-section .section-header h2 { color: #FFFFFF; }
+    .testimonials-section .section-header h2:after { background: linear-gradient(90deg, #C49A6C, #E8C39E); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2rem; }
+    .testimonial-card {
+      background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 2rem;
+      border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s;
+    }
+    .testimonial-card:hover { transform: translateY(-5px); background: rgba(255,255,255,0.15); }
+    .testimonial-text { font-size: 1rem; line-height: 1.8; margin-bottom: 1.5rem; font-style: italic; }
+    .testimonial-author { display: flex; align-items: center; gap: 1rem; }
+    .testimonial-avatar {
+      width: 50px; height: 50px; background: #C49A6C; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem;
+    }
+    .testimonial-info h4 { font-size: 1rem; margin-bottom: 0.2rem; }
+    .testimonial-info p { font-size: 0.8rem; opacity: 0.7; }
+    .stars { color: #FFD700; margin-top: 0.5rem; font-size: 0.8rem; }
+
+    @media (max-width: 768px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    /* BRANDS */
+    .brands-section { padding: 3rem 0; background: #FFFFFF; }
+    .brands-grid {
+      display: grid; grid-template-columns: repeat(6, 1fr); gap: 2rem;
+      align-items: center; justify-items: center;
+    }
+    .brand-item {
+      opacity: 0.6; transition: opacity 0.3s; font-size: 1.5rem; font-weight: 600;
+      color: #4A4A4A; text-align: center;
+    }
+    .brand-item:hover { opacity: 1; }
+
+    @media (max-width: 768px) { .brands-grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; } }
+
+    /* FAQ */
+    .faq-grid { max-width: 800px; margin: 0 auto; }
+    .faq-item {
+      background: #FFFFFF; border: 1px solid #E8E0D8; border-radius: 1rem;
+      margin-bottom: 1rem; overflow: hidden; transition: all 0.3s;
+    }
+    .faq-item:hover { border-color: #C49A6C; }
+    .faq-question {
+      padding: 1.2rem 1.5rem; display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; font-weight: 600; background: #FFFFFF;
+    }
+    .faq-question i { transition: transform 0.3s; color: #C49A6C; }
+    .faq-item.active .faq-question i { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0; padding: 0 1.5rem; overflow: hidden; transition: all 0.3s;
+      color: #6B4E3A; border-top: 1px solid transparent;
+    }
+    .faq-item.active .faq-answer {
+      max-height: 200px; padding: 0 1.5rem 1.2rem; border-top-color: #E8E0D8;
     }
 
-    .section-title {
-        text-align: center;
-        max-width: 780px;
-        margin: 0 auto 50px;
+    /* CONTACT */
+    .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .contact-card {
+      background: #FFFFFF; padding: 2rem; border-radius: 1.5rem; text-align: center;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: all 0.3s;
+    }
+    .contact-card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+    .contact-icon {
+      width: 70px; height: 70px; background: linear-gradient(135deg, #C49A6C20, #E8C39E20);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1.2rem; font-size: 1.8rem; color: #C49A6C;
+    }
+    .contact-card h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+    .contact-card p, .contact-card a { color: #6B4E3A; text-decoration: none; line-height: 1.6; }
+    .contact-card a:hover { color: #C49A6C; }
+
+    @media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }
+
+    /* MAP */
+    .map-section { padding: 0 0 4rem; }
+    .map-container {
+      background: #F5F0EB; border-radius: 1.5rem; overflow: hidden; height: 400px;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #E8E0D8, #DCD0C4);
+    }
+    .map-placeholder { text-align: center; }
+    .map-placeholder i { font-size: 4rem; color: #C49A6C; margin-bottom: 1rem; }
+
+    /* FOOTER */
+    .footer { background: #1F120C; color: #E5D5C4; padding-top: 4rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 2fr; gap: 2.5rem; margin-bottom: 3rem; }
+    .footer-brand {
+      display: flex; align-items: center; gap: 0.75rem; font-size: 1.5rem; font-weight: 700;
+      margin-bottom: 1rem; color: #FFFFFF; font-family: 'Playfair Display', serif;
+    }
+    .footer-brand svg { width: 28px; height: 28px; color: #C49A6C; }
+    .footer h4 { color: #FFFFFF; margin-bottom: 1.2rem; font-size: 1.1rem; font-family: 'Playfair Display', serif; }
+    .footer-links { display: flex; flex-direction: column; gap: 0.8rem; }
+    .footer-links a, .footer-links button {
+      color: #E5D5C4; text-decoration: none; font-size: 0.9rem; transition: color 0.3s;
+      background: none; border: none; cursor: pointer; text-align: left;
+    }
+    .footer-links a:hover, .footer-links button:hover { color: #C49A6C; }
+    .footer-data p { font-size: 0.85rem; margin-bottom: 0.5rem; line-height: 1.5; }
+    .social-links { display: flex; gap: 1rem; margin-top: 1rem; }
+    .social-links a {
+      width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; color: #E5D5C4; transition: all 0.3s;
+    }
+    .social-links a:hover { background: #C49A6C; color: #FFFFFF; transform: translateY(-3px); }
+    .footer-bottom {
+      border-top: 1px solid #4A2A1F; padding: 1.5rem 0; display: flex;
+      justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem;
+    }
+    .footer-bottom-links { display: flex; gap: 1.5rem; }
+    .footer-bottom-links button, .footer-bottom-links a {
+      background: none; border: none; color: #E5D5C4; cursor: pointer; font-size: 0.8rem;
+    }
+    .footer-bottom-links button:hover, .footer-bottom-links a:hover { color: #C49A6C; }
+
+    @media (max-width: 992px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; } }
+    @media (max-width: 640px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
     }
 
-    .section-title h2 {
-        color: var(--primary);
-        font-size: 35px;
-        line-height: 1.2;
-        margin-bottom: 14px;
-    }
-
-    .section-title p {
-        color: var(--muted);
-    }
-
-    .about {
-        background: var(--light);
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-    }
-
-    .card {
-        background: white;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 30px;
-        box-shadow: var(--shadow);
-    }
-
-    .card-icon {
-        width: 48px;
-        height: 48px;
-        display: grid;
-        place-items: center;
-        border-radius: 10px;
-        background: #eef3f7;
-        color: var(--secondary-dark);
-        font-size: 23px;
-        margin-bottom: 18px;
-    }
-
-    .card h3 {
-        color: var(--primary);
-        margin-bottom: 12px;
-        font-size: 20px;
-    }
-
-    .card p {
-        color: var(--muted);
-        font-size: 15px;
-    }
-
-    .services-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 22px;
-    }
-
-    .service {
-        border: 1px solid var(--border);
-        border-left: 4px solid var(--secondary);
-        padding: 25px;
-        border-radius: 8px;
-        background: #fff;
-    }
-
-    .service h3 {
-        color: var(--primary);
-        margin-bottom: 8px;
-    }
-
-    .service p {
-        color: var(--muted);
-    }
-
-    .seo-content {
-        background: var(--light);
-    }
-
-    .seo-content article {
-        max-width: 900px;
-        margin: auto;
-        background: #fff;
-        padding: 42px;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-    }
-
-    .seo-content h2 {
-        color: var(--primary);
-        margin: 30px 0 12px;
-    }
-
-    .seo-content h2:first-child {
-        margin-top: 0;
-    }
-
-    .seo-content h3 {
-        color: var(--primary);
-        margin: 24px 0 10px;
-    }
-
-    .seo-content p {
-        margin-bottom: 15px;
-        color: #4d5b67;
-    }
-
-    .seo-content ul {
-        margin: 15px 0 20px 22px;
-        color: #4d5b67;
-    }
-
-    .highlight {
-        background: var(--primary);
-        color: #fff;
-    }
-
-    .highlight .section-title h2,
-    .highlight .section-title p {
-        color: #fff;
-    }
-
-    .contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-
-    .contact-box {
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 32px;
-        background: white;
-    }
-
-    .contact-box h3 {
-        color: var(--primary);
-        margin-bottom: 18px;
-    }
-
-    .contact-item {
-        margin-bottom: 18px;
-    }
-
-    .contact-item strong {
-        display: block;
-        color: var(--primary);
-    }
-
-    .map {
-        width: 100%;
-        min-height: 360px;
-        border: 0;
-        border-radius: var(--radius);
-    }
-
-    .legal {
-        background: #f8f9fa;
-    }
-
-    .legal-box {
-        background: white;
-        padding: 35px;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        margin-bottom: 25px;
-    }
-
-    .legal-box h2 {
-        color: var(--primary);
-        margin-bottom: 18px;
-    }
-
-    .legal-box h3 {
-        color: var(--primary);
-        margin: 24px 0 8px;
-    }
-
-    .legal-box p,
-    .legal-box li {
-        color: #586572;
-        font-size: 14px;
-    }
-
-    .legal-box ul {
-        margin-left: 22px;
-    }
-
-    footer {
-        background: #071f35;
-        color: #c8d2dc;
-        padding: 45px 0 25px;
-    }
-
-    .footer-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        gap: 40px;
-    }
-
-    footer h3 {
-        color: white;
-        margin-bottom: 15px;
-    }
-
-    footer a {
-        color: #c8d2dc;
-    }
-
-    footer a:hover {
-        color: var(--secondary);
-    }
-
-    .copyright {
-        border-top: 1px solid rgba(255,255,255,.12);
-        margin-top: 35px;
-        padding-top: 20px;
-        text-align: center;
-        font-size: 13px;
-    }
-
+    /* COOKIE BANNER */
     .cookie-banner {
-        position: fixed;
-        bottom: 18px;
-        left: 18px;
-        right: 18px;
-        max-width: 1050px;
-        margin: auto;
-        background: #fff;
-        border: 1px solid var(--border);
-        box-shadow: 0 10px 45px rgba(0,0,0,.2);
-        border-radius: 12px;
-        padding: 20px;
-        z-index: 2000;
-        display: flex;
-        align-items: center;
-        gap: 25px;
-        justify-content: space-between;
+      position: fixed; bottom: 20px; left: 20px; right: 20px; z-index: 1100; max-width: 400px;
+      background: #FFFFFF; border-radius: 1rem; box-shadow: 0 20px 40px rgba(0,0,0,0.2); transition: transform 0.3s;
+    }
+    .cookie-banner.hidden { transform: translateY(150%); }
+    .cookie-content { padding: 1.2rem; }
+    .cookie-content h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .cookie-content p { font-size: 0.75rem; color: #6B4E3A; margin-bottom: 1rem; }
+    .cookie-buttons { display: flex; gap: 0.5rem; }
+    .cookie-buttons button { flex: 1; padding: 0.6rem; border-radius: 50px; font-size: 0.75rem; cursor: pointer; }
+
+    /* MODAL */
+    .modal {
+      display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.8); z-index: 2000; justify-content: center; align-items: center; padding: 1rem;
+    }
+    .modal.active { display: flex; }
+    .modal-content {
+      background: #FFFFFF; border-radius: 1.5rem; max-width: 700px; width: 100%;
+      max-height: 85vh; overflow-y: auto; position: relative; padding: 2rem;
+    }
+    .modal-content h1 { font-size: 1.5rem; margin-bottom: 1rem; color: #2C1810; }
+    .modal-content h2 { font-size: 1.1rem; margin: 1rem 0 0.5rem; }
+    .modal-content p, .modal-content li { font-size: 0.85rem; color: #4A4A4A; }
+    .modal-close { position: sticky; top: 0; display: flex; justify-content: flex-end; margin-bottom: 1rem; }
+    .modal-close button {
+      background: #F0F0F0; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer;
+    }
+    .legal-notice {
+      background: #FAF7F4; padding: 1rem; border-radius: 0.75rem; margin-top: 1.5rem;
+      font-size: 0.75rem; border-left: 3px solid #C49A6C;
     }
 
-    .cookie-banner p {
-        font-size: 13px;
-        color: var(--muted);
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
+    .animate { animation: fadeUp 0.8s ease forwards; }
 
-    .cookie-buttons {
-        display: flex;
-        gap: 10px;
-        flex-shrink: 0;
+    /* BACK TO TOP */
+    .back-to-top {
+      position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+      background: #C49A6C; color: #FFFFFF; border-radius: 50%; display: flex;
+      align-items: center; justify-content: center; cursor: pointer; opacity: 0;
+      visibility: hidden; transition: all 0.3s; z-index: 99; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
-
-    .cookie-btn {
-        border: 0;
-        border-radius: 6px;
-        padding: 10px 16px;
-        cursor: pointer;
-        font-weight: 700;
-    }
-
-    .accept {
-        background: var(--primary);
-        color: white;
-    }
-
-    .reject {
-        background: #e9edf1;
-        color: var(--text);
-    }
-
-    @media (max-width: 850px) {
-        nav ul {
-            display: none;
-        }
-
-        .grid,
-        .services-grid,
-        .contact,
-        .footer-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .hero {
-            padding: 75px 0;
-        }
-
-        section {
-            padding: 60px 0;
-        }
-
-        .cookie-banner {
-            flex-direction: column;
-            align-items: stretch;
-        }
-
-        .cookie-buttons {
-            width: 100%;
-        }
-
-        .cookie-btn {
-            flex: 1;
-        }
-
-        .seo-content article {
-            padding: 25px;
-        }
-    }
-</style>
-
-<!-- Dados estruturados -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "Alessandro Magno Sociedade Individual de Advocacia",
-    "description": "Assessoria jurídica empresarial especializada para MEI, Simples Nacional, PGMEI e pequenas empresas.",
-    "url": "https://seudominio.com.br/",
-    "telephone": "+55 86 999999999",
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rua Minas Gerais, 534, Conj Acarape Sala 1",
-        "addressLocality": "Teresina",
-        "addressRegion": "PI",
-        "postalCode": "64003-835",
-        "addressCountry": "BR"
-    },
-    "areaServed": "Teresina, Piauí, Brasil"
-}
-</script>
-```
-
+    .back-to-top.show { opacity: 1; visibility: visible; }
+    .back-to-top:hover { background: #A87A4A; transform: translateY(-3px); }
+  </style>
 </head>
-
 <body>
 
-<header>
-    <div class="container nav">
-        <a href="#inicio" class="logo">
-            Alessandro Magno <span>Advocacia</span>
-        </a>
-
-```
-    <nav>
-        <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#mei">MEI</a></li>
-            <li><a href="#simples">Simples Nacional</a></li>
-            <li><a href="#empresa">Empresa</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-</div>
-```
-
-</header>
-
-<main>
-
-<section class="hero" id="inicio">
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
     <div class="container">
-        <div class="hero-content">
-
-```
-        <span class="badge">Assessoria Jurídica Empresarial</span>
-
-        <h1>
-            Assessoria Jurídica Especializada para MEI e Pequenas Empresas
-        </h1>
-
-        <p>
-            Orientação jurídica para Microempreendedores Individuais,
-            pequenas empresas e empresários que precisam de segurança
-            para lidar com questões relacionadas ao MEI, PGMEI,
-            Simples Nacional, obrigações empresariais e tributárias.
-        </p>
-
-        <div class="buttons">
-            <a href="#contato" class="btn btn-primary">
-                Solicitar Atendimento
-            </a>
-
-            <a href="#servicos" class="btn btn-outline">
-                Conhecer Serviços
-            </a>
-        </div>
-
+      <a href="#" class="nav-brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        Sul Móveis
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#moveis">Móveis</a>
+        <a href="#decoracao">Decoração</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <a href="#contato" class="btn btn-primary" style="display: none; background: #C49A6C;" id="contactBtnDesktop">Solicitar Atendimento</a>
     </div>
-</div>
-```
+  </nav>
 
-</section>
-
-<section id="empresa">
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
     <div class="container">
-
-```
-    <div class="section-title">
-        <h2>Assessoria jurídica para empresários</h2>
-
-        <p>
-            Atendimento voltado às necessidades jurídicas de
-            MEI, microempresas, pequenas empresas e empreendedores.
-        </p>
+      <div class="hero-content">
+        <div class="hero-badge animate" style="animation-delay: 0s;">
+          <i class="fas fa-couch"></i>
+          <span>Tradição desde 2018</span>
+        </div>
+        <h1 class="animate" style="animation-delay: 0.2s;">Móveis e Decoração para Transformar sua Casa</h1>
+        <p class="hero-desc animate" style="animation-delay: 0.4s;">Há mais de 7 anos, a Sul Móveis oferece móveis e decoração de alta qualidade, combinando conforto, estilo e atendimento personalizado para deixar seu lar ainda mais especial.</p>
+        <div class="hero-stats animate" style="animation-delay: 0.6s;">
+          <div class="hero-stat">
+            <div class="number">7+</div>
+            <div class="label">Anos de História</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">3k+</div>
+            <div class="label">Clientes Satisfeitos</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">50+</div>
+            <div class="label">Marcas Parceiras</div>
+          </div>
+        </div>
+        <div class="hero-buttons animate" style="animation-delay: 0.8s;">
+          <a href="#moveis" class="btn btn-primary btn-lg">Conheça os Móveis</a>
+          <a href="#decoracao" class="btn btn-outline btn-lg">Explore a Decoração</a>
+        </div>
+        <div class="hero-disclaimer animate" style="animation-delay: 1s;">
+          <i class="fas fa-shield-alt"></i>
+          <p><strong>Aviso:</strong> Este é o site oficial da empresa particular <strong>Sul Moveis LTDA — CNPJ 31.472.898/0001-24</strong>. <strong>Não somos um órgão governamental</strong> e <strong>não compartilhamos dados de clientes</strong>.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="grid">
-
-        <div class="card">
-            <div class="card-icon">⚖</div>
-
-            <h3>Orientação Jurídica</h3>
-
-            <p>
-                Análise e orientação sobre questões jurídicas que
-                envolvem a atividade empresarial, contratos,
-                obrigações e relações comerciais.
-            </p>
-        </div>
-
-        <div class="card">
-            <div class="card-icon">✓</div>
-
-            <h3>Segurança para sua empresa</h3>
-
-            <p>
-                Informação jurídica para ajudar empresários a
-                compreender seus direitos, deveres e responsabilidades
-                na condução de seus negócios.
-            </p>
-        </div>
-
-        <div class="card">
-            <div class="card-icon">▣</div>
-
-            <h3>Atendimento empresarial</h3>
-
-            <p>
-                Atendimento direcionado a empreendedores que buscam
-                suporte jurídico para situações relacionadas à
-                rotina de suas empresas.
-            </p>
-        </div>
-
-    </div>
-</div>
-```
-
-</section>
-
-<section class="about" id="mei">
+  <!-- STATS SECTION -->
+  <section class="stats-section">
     <div class="container">
-
-```
-    <div class="section-title">
-        <h2>Assessoria jurídica para MEI</h2>
-
-        <p>
-            Suporte jurídico para Microempreendedores Individuais
-            que precisam entender suas obrigações e tomar decisões
-            com maior segurança.
-        </p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-store"></i></div>
+          <div class="stat-number">2018</div>
+          <div class="stat-label">Ano de Fundação</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-users"></i></div>
+          <div class="stat-number">3.000+</div>
+          <div class="stat-label">Clientes Atendidos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Marcas Exclusivas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-star"></i></div>
+          <div class="stat-number">4.9</div>
+          <div class="stat-label">Avaliação dos Clientes</div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="services-grid">
-
-        <div class="service">
-            <h3>Regularização do MEI</h3>
-            <p>
-                Orientação jurídica para situações relacionadas à
-                regularização cadastral e às obrigações do
-                Microempreendedor Individual.
-            </p>
-        </div>
-
-        <div class="service">
-            <h3>PGMEI</h3>
-            <p>
-                Orientação sobre questões jurídicas relacionadas ao
-                PGMEI, obrigações do MEI, emissão de documentos e
-                situações que possam exigir análise profissional.
-            </p>
-        </div>
-
-        <div class="service">
-            <h3>DAS-MEI</h3>
-            <p>
-                Informações e orientação jurídica sobre obrigações
-                relacionadas ao Documento de Arrecadação do Simples
-                Nacional do MEI, conhecido como DAS-MEI.
-            </p>
-        </div>
-
-        <div class="service">
-            <h3>Débitos do MEI</h3>
-            <p>
-                Análise jurídica de situações envolvendo débitos,
-                cobranças, obrigações e possíveis medidas aplicáveis
-                conforme cada caso concreto.
-            </p>
-        </div>
-
-        <div class="service">
-            <h3>Obrigações do Microempreendedor</h3>
-            <p>
-                Orientação para empresários que desejam compreender
-                suas responsabilidades enquanto MEI e manter uma
-                atuação empresarial mais organizada.
-            </p>
-        </div>
-
-        <div class="service">
-            <h3>Encerramento e situações empresariais</h3>
-            <p>
-                Orientação jurídica para situações envolvendo
-                alterações, encerramento e questões relacionadas à
-                atividade empresarial.
-            </p>
-        </div>
-
-    </div>
-</div>
-```
-
-</section>
-
-<section id="simples">
+  <!-- ABOUT SECTION -->
+  <section id="sobre" class="section">
     <div class="container">
-
-```
-    <div class="section-title">
-        <h2>Simples Nacional e pequenas empresas</h2>
-
-        <p>
-            Assessoria jurídica para empresários que precisam
-            compreender questões relacionadas ao regime do
-            Simples Nacional e à rotina empresarial.
-        </p>
-    </div>
-
-    <div class="grid">
-
-        <div class="card">
-            <div class="card-icon">R$</div>
-
-            <h3>Simples Nacional</h3>
-
-            <p>
-                Orientação jurídica sobre questões empresariais e
-                tributárias relacionadas ao Simples Nacional,
-                considerando as particularidades de cada empresa.
-            </p>
-        </div>
-
-        <div class="card">
-            <div class="card-icon">MEI</div>
-
-            <h3>MEI e Simples Nacional</h3>
-
-            <p>
-                Esclarecimentos sobre situações jurídicas que podem
-                surgir na relação entre o Microempreendedor Individual,
-                sua atividade econômica e o regime tributário.
-            </p>
-        </div>
-
-        <div class="card">
-            <div class="card-icon">§</div>
-
-            <h3>Questões tributárias</h3>
-
-            <p>
-                Análise jurídica de demandas envolvendo obrigações,
-                cobranças, débitos e demais questões tributárias
-                apresentadas pelo cliente.
-            </p>
-        </div>
-
-    </div>
-</div>
-```
-
-</section>
-
-<section class="seo-content">
-    <div class="container">
-
-```
-    <article>
-
-        <h2>Advogado para MEI e pequenas empresas</h2>
-
-        <p>
-            O Microempreendedor Individual possui uma série de
-            responsabilidades relacionadas à sua atividade. Por isso,
-            contar com orientação profissional pode ajudar o empresário
-            a compreender melhor suas obrigações e seus direitos.
-        </p>
-
-        <p>
-            A assessoria jurídica para MEI pode envolver análise de
-            contratos, questões empresariais, relações comerciais,
-            cobranças, obrigações e situações relacionadas à atividade
-            profissional.
-        </p>
-
-        <h2>PGMEI, DAS-MEI e obrigações do MEI</h2>
-
-        <p>
-            O PGMEI é utilizado para questões relacionadas à apuração
-            e pagamento das obrigações do Microempreendedor Individual.
-            O DAS-MEI, por sua vez, é o documento utilizado para o
-            recolhimento mensal dos tributos abrangidos pelo regime.
-        </p>
-
-        <p>
-            É importante diferenciar orientação jurídica de serviços
-            contábeis e de serviços diretamente prestados pelos
-            sistemas oficiais. A análise de cada situação deve ser
-            realizada de acordo com os documentos e circunstâncias
-            apresentados pelo cliente.
-        </p>
-
-        <h2>Assessoria para Simples Nacional</h2>
-
-        <p>
-            O Simples Nacional é um regime tributário destinado a
-            determinadas microempresas e empresas de pequeno porte.
-            Empresas enquadradas nesse regime podem enfrentar diversas
-            questões jurídicas relacionadas à sua operação.
-        </p>
-
-        <p>
-            Uma assessoria jurídica empresarial pode auxiliar o
-            empresário na compreensão de contratos, relações com
-            fornecedores e clientes, cobranças, responsabilidades,
-            obrigações e outras demandas jurídicas.
-        </p>
-
-        <h2>Consultoria jurídica empresarial</h2>
-
-        <p>
-            A consultoria jurídica empresarial busca oferecer ao
-            empreendedor uma visão profissional sobre questões jurídicas
-            que podem impactar sua atividade. O objetivo é fornecer
-            informação e orientação de acordo com a legislação aplicável
-            e com as características de cada caso.
-        </p>
-
-        <h3>Atendimento para empresários e empreendedores</h3>
-
-        <p>
-            O atendimento pode ser direcionado a MEI, profissionais
-            autônomos, microempresas, pequenas empresas e empreendedores
-            que necessitem de orientação jurídica relacionada às suas
-            atividades.
-        </p>
-
-        <p>
-            Se você procura advogado para MEI, assessoria jurídica para
-            pequenas empresas, orientação sobre Simples Nacional,
-            questões relacionadas ao PGMEI ou análise de situações
-            empresariais, entre em contato para verificar a possibilidade
-            de atendimento.
-        </p>
-
-    </article>
-</div>
-```
-
-</section>
-
-<section class="highlight">
-    <div class="container">
-
-```
-    <div class="section-title">
-        <h2>Atendimento jurídico personalizado</h2>
-
-        <p>
-            Cada empresa possui uma realidade diferente. A análise
-            profissional permite avaliar a situação apresentada e
-            identificar as medidas jurídicas adequadas ao caso.
-        </p>
-    </div>
-
-    <div class="buttons" style="justify-content:center;">
-        <a href="#contato" class="btn btn-primary">
-            Entrar em Contato
-        </a>
-    </div>
-
-</div>
-```
-
-</section>
-
-<section id="contato">
-    <div class="container">
-
-```
-    <div class="section-title">
-        <h2>Contato e localização</h2>
-
-        <p>
-            Alessandro Magno Sociedade Individual de Advocacia,
-            Teresina, Piauí.
-        </p>
-    </div>
-
-    <div class="contact">
-
-        <div class="contact-box">
-
-            <h3>Informações da empresa</h3>
-
-            <div class="contact-item">
-                <strong>Razão Social</strong>
-                Alessandro Magno Sociedade Individual de Advocacia
-            </div>
-
-            <div class="contact-item">
-                <strong>CNPJ</strong>
-                08.573.723/0001-91
-            </div>
-
-            <div class="contact-item">
-                <strong>Atividade Principal</strong>
-                Serviços advocatícios — CNAE 69.11-7-01
-            </div>
-
-            <div class="contact-item">
-                <strong>Endereço</strong>
-                Rua Minas Gerais, 534<br>
-                Conj. Acarape, Sala 1<br>
-                Bairro Acarape<br>
-                Teresina - PI<br>
-                CEP 64003-835
-            </div>
-
-            <div class="contact-item">
-                <strong>Situação cadastral</strong>
-                Ativa
-            </div>
-
-            <a
-                class="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.google.com.br/maps/search/Rua%20Minas%20Gerais%20534%20Acarape%20Teresina%20PI">
-                Ver localização no Google Maps
-            </a>
-
-        </div>
-
+      <div class="section-header">
+        <span class="section-subtitle">Nossa História</span>
+        <h2>Sobre a Sul Móveis</h2>
+        <p class="section-desc">Conheça a trajetória de uma das mais queridas lojas de móveis de Guarapari</p>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
         <div>
-            <iframe
-                class="map"
-                loading="lazy"
-                src="https://www.google.com/maps?q=Rua%20Minas%20Gerais%20534%20Acarape%20Teresina%20PI&output=embed"
-                title="Localização Alessandro Magno Sociedade Individual de Advocacia">
-            </iframe>
+          <h3 style="color: #C49A6C; margin-bottom: 1rem;">Mais de 7 anos mobiliando lares</h3>
+          <p style="margin-bottom: 1rem; color: #4A4A4A;">A <strong>Sul Moveis LTDA</strong>, com <strong>CNPJ 31.472.898/0001-24</strong>, foi fundada em <strong>11 de setembro de 2018</strong> na cidade de <strong>Guarapari - ES</strong>. Nossa atividade principal é o comércio varejista de móveis (CNAE 47.54-7-01).</p>
+          <p style="margin-bottom: 1rem; color: #4A4A4A;">Ao longo dos anos, construímos uma sólida reputação baseada na confiança, qualidade dos produtos e no atendimento personalizado que oferecemos a cada cliente que nos visita.</p>
+          <p style="color: #4A4A4A;">Nossa missão é oferecer móveis e decoração de alta qualidade, combinando conforto, estilo e atendimento personalizado, garantindo a melhor experiência para nossos clientes.</p>
+          <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+            <div><i class="fas fa-check-circle" style="color: #C49A6C;"></i> Produtos de qualidade</div>
+            <div><i class="fas fa-check-circle" style="color: #C49A6C;"></i> Atendimento especializado</div>
+            <div><i class="fas fa-check-circle" style="color: #C49A6C;"></i> Entrega e montagem</div>
+          </div>
         </div>
-
+        <div style="background: linear-gradient(135deg, #F5F0EB, #E8E0D8); border-radius: 1.5rem; padding: 2rem; text-align: center;">
+          <i class="fas fa-couch" style="font-size: 4rem; color: #C49A6C; margin-bottom: 1rem;"></i>
+          <p style="font-style: italic; color: #2C1810;">"Conforto e estilo para o seu lar"</p>
+          <div style="margin-top: 1.5rem;">
+            <div style="font-weight: 600;">Sul Móveis</div>
+            <div style="font-size: 0.8rem; color: #6B4E3A;">Desde 2018</div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-```
+  </section>
 
-</section>
-
-<section class="legal" id="privacidade">
+  <!-- MÓVEIS SECTION -->
+  <section id="moveis" class="section section-muted">
     <div class="container">
-
-```
-    <div class="legal-box">
-
-        <h2>Política de Privacidade</h2>
-
-        <p>
-            Esta Política de Privacidade explica, de forma geral, como
-            informações fornecidas voluntariamente pelos usuários podem
-            ser tratadas durante a utilização deste site.
-        </p>
-
-        <h3>1. Dados coletados</h3>
-
-        <p>
-            O site poderá receber dados fornecidos voluntariamente pelo
-            usuário, como nome, telefone, endereço de e-mail e informações
-            inseridas em formulários de contato ou solicitações de
-            atendimento.
-        </p>
-
-        <h3>2. Finalidade do tratamento</h3>
-
-        <p>
-            Os dados poderão ser utilizados para responder solicitações,
-            realizar contato, prestar informações sobre serviços,
-            analisar pedidos de atendimento e cumprir obrigações legais
-            eventualmente aplicáveis.
-        </p>
-
-        <h3>3. Compartilhamento de informações</h3>
-
-        <p>
-            Os dados pessoais não serão comercializados. Eventual
-            compartilhamento poderá ocorrer quando necessário para
-            cumprimento de obrigação legal, exercício regular de direitos,
-            execução de serviços solicitados ou utilização de fornecedores
-            tecnológicos necessários ao funcionamento do site.
-        </p>
-
-        <h3>4. Segurança</h3>
-
-        <p>
-            São adotadas medidas razoáveis para proteger as informações
-            contra acesso não autorizado, perda, alteração ou divulgação
-            indevida. Nenhum sistema eletrônico pode garantir segurança
-            absoluta.
-        </p>
-
-        <h3>5. Direitos do titular</h3>
-
-        <p>
-            Nos termos da legislação aplicável, especialmente a Lei Geral
-            de Proteção de Dados Pessoais (LGPD), o titular poderá exercer
-            os direitos previstos na legislação, observadas as hipóteses
-            legais e as limitações aplicáveis a cada solicitação.
-        </p>
-
-        <h3>6. Atualizações</h3>
-
-        <p>
-            Esta política poderá ser atualizada periodicamente para
-            refletir mudanças no funcionamento do site, nos serviços
-            oferecidos ou na legislação aplicável.
-        </p>
-
+      <div class="section-header">
+        <span class="section-subtitle">Móveis</span>
+        <h2>Móveis para todos os ambientes</h2>
+        <p>Qualidade e conforto para cada cantinho da sua casa</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-couch"></i>
+            <div class="product-tag">Novo</div>
+          </div>
+          <div class="product-info">
+            <h3>Sofás e Poltronas</h3>
+            <p>Modelos modernos e confortáveis para sua sala de estar.</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-bed"></i>
+          </div>
+          <div class="product-info">
+            <h3>Camas e Colchões</h3>
+            <p>Qualidade para garantir noites de sono revigorantes.</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="product-info">
+            <h3>Mesas e Cadeiras</h3>
+            <p>Conjuntos para sala de jantar e cozinha com muito estilo.</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-archive"></i>
+          </div>
+          <div class="product-info">
+            <h3>Armários e Guarda-roupas</h3>
+            <p>Organização e praticidade para o seu quarto.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="legal-box" id="cookies">
-
-        <h2>Política de Cookies</h2>
-
-        <p>
-            Cookies são pequenos arquivos armazenados no dispositivo do
-            visitante e podem ser utilizados para permitir o funcionamento
-            adequado do site, melhorar a experiência de navegação e
-            compreender como o site é utilizado.
-        </p>
-
-        <h3>Cookies necessários</h3>
-
-        <p>
-            Podem ser utilizados para funções essenciais do site, como
-            preferências, segurança e funcionamento de determinados
-            recursos.
-        </p>
-
-        <h3>Cookies de análise</h3>
-
-        <p>
-            Caso ferramentas de análise sejam instaladas no site, cookies
-            poderão ser utilizados para compreender informações agregadas
-            sobre navegação e desempenho.
-        </p>
-
-        <h3>Gerenciamento de cookies</h3>
-
-        <p>
-            O usuário pode configurar seu navegador para bloquear ou
-            excluir cookies. O bloqueio de determinados cookies poderá
-            afetar o funcionamento de algumas funcionalidades.
-        </p>
-
-        <h3>Consentimento</h3>
-
-        <p>
-            Quando necessário, o site poderá solicitar o consentimento
-            do visitante para determinadas categorias de cookies antes
-            de seu uso.
-        </p>
-
-    </div>
-
-    <div class="legal-box">
-
-        <h2>Aviso Legal</h2>
-
-        <p>
-            As informações publicadas neste site possuem caráter
-            informativo e institucional. A publicação de conteúdos sobre
-            MEI, PGMEI, DAS-MEI, Simples Nacional, pequenas empresas ou
-            questões tributárias não substitui uma análise jurídica
-            individualizada.
-        </p>
-
-        <p>
-            A contratação de serviços jurídicos dependerá da análise do
-            caso concreto, da documentação apresentada e da formalização
-            adequada da relação profissional.
-        </p>
-
-        <p>
-            Este site não deve ser interpretado como promessa de resultado,
-            garantia de êxito ou oferta automática de contratação.
-        </p>
-
-        <p>
-            Informações sobre legislação, tributos, obrigações e sistemas
-            oficiais podem sofrer alterações. O visitante deve considerar
-            a legislação vigente e, quando necessário, buscar orientação
-            profissional.
-        </p>
-
-    </div>
-
-</div>
-```
-
-</section>
-
-</main>
-
-<footer>
+  <!-- DECORAÇÃO SECTION -->
+  <section id="decoracao" class="section">
     <div class="container">
-
-```
-    <div class="footer-grid">
-
-        <div>
-            <h3>Alessandro Magno Sociedade Individual de Advocacia</h3>
-
-            <p>
-                Assessoria jurídica empresarial para MEI, pequenas
-                empresas, empreendedores e questões relacionadas à
-                atividade empresarial.
-            </p>
+      <div class="section-header">
+        <span class="section-subtitle">Decoração</span>
+        <h2>Detalhes que fazem a diferença</h2>
+        <p>Itens decorativos para deixar sua casa com a sua cara</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div class="product-info">
+            <h3>Luminárias</h3>
+            <p>Iluminação que transforma ambientes e cria clima.</p>
+          </div>
         </div>
-
-        <div>
-            <h3>Navegação</h3>
-
-            <p><a href="#inicio">Início</a></p>
-            <p><a href="#servicos">Serviços</a></p>
-            <p><a href="#mei">MEI</a></p>
-            <p><a href="#simples">Simples Nacional</a></p>
-            <p><a href="#contato">Contato</a></p>
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-image"></i>
+          </div>
+          <div class="product-info">
+            <h3>Quadros e Espelhos</h3>
+            <p>Peças decorativas para compor paredes com charme.</p>
+          </div>
         </div>
-
-        <div>
-            <h3>Informações</h3>
-
-            <p><a href="#privacidade">Privacidade</a></p>
-            <p><a href="#cookies">Cookies</a></p>
-            <p><a href="#contato">Endereço</a></p>
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-rug"></i>
+          </div>
+          <div class="product-info">
+            <h3>Tapetes e Almofadas</h3>
+            <p>Toques de cor e textura para compor o ambiente.</p>
+          </div>
         </div>
-
+        <div class="product-card">
+          <div class="product-image">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="product-info">
+            <h3>Plantas e Vasos</h3>
+            <p>Verde e vida para todos os espaços da casa.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="copyright">
-        © <span id="ano"></span>
-        Alessandro Magno Sociedade Individual de Advocacia.
-        CNPJ 08.573.723/0001-91.
-        Todos os direitos reservados.
+  <!-- SERVICES SECTION -->
+  <section id="servicos" class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Serviços Especializados</span>
+        <h2>Cuidamos de cada detalhe para você</h2>
+        <p>Oferecemos uma gama completa de serviços para garantir a satisfação dos nossos clientes</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-truck"></i></div>
+          <h3>Entrega e Montagem</h3>
+          <p>Entregamos e montamos seus móveis com profissionais qualificados, sem preocupação para você.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+          <h3>Projetos Personalizados</h3>
+          <p>Desenvolvemos projetos de decoração e planejamento de ambientes sob medida para sua casa.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Assistência Técnica</h3>
+          <p>Suporte pós-venda para manutenção e reparos dos móveis adquiridos em nossa loja.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-</div>
-```
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Depoimentos</span>
+        <h2>O que nossos clientes dizem</h2>
+        <p>A satisfação dos nossos clientes é o nosso maior orgulho</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-text">"Comprei meu sofá na Sul Móveis e superou minhas expectativas. Qualidade excelente e entrega rápida!"</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><i class="fas fa-user"></i></div>
+            <div class="testimonial-info">
+              <h4>Marina S.</h4>
+              <p>Cliente desde 2020</p>
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">"Ótima variedade de móveis e decoração. Profissionais muito atenciosos e preços justos. Minha loja favorita em Guarapari!"</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><i class="fas fa-user"></i></div>
+            <div class="testimonial-info">
+              <h4>Carlos M.</h4>
+              <p>Cliente desde 2019</p>
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">"Loja de confiança em Guarapari! Sempre encontro peças de qualidade e com ótimo custo-benefício. Atendimento impecável."</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><i class="fas fa-user"></i></div>
+            <div class="testimonial-info">
+              <h4>Patrícia R.</h4>
+              <p>Cliente desde 2021</p>
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</footer>
+  <!-- BRANDS SECTION -->
+  <section class="brands-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Marcas Parceiras</span>
+        <h2>Trabalhamos com as melhores</h2>
+      </div>
+      <div class="brands-grid">
+        <div class="brand-item"><i class="fas fa-couch"></i> Móveis</div>
+        <div class="brand-item"><i class="fas fa-bed"></i> Colchões</div>
+        <div class="brand-item"><i class="fas fa-lightbulb"></i> Luminárias</div>
+        <div class="brand-item"><i class="fas fa-rug"></i> Tapetes</div>
+        <div class="brand-item"><i class="fas fa-image"></i> Quadros</div>
+        <div class="brand-item"><i class="fas fa-leaf"></i> Decoração</div>
+      </div>
+    </div>
+  </section>
 
-<!-- Banner de Cookies -->
+  <!-- FAQ SECTION -->
+  <section id="faq" class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Dúvidas Frequentes</span>
+        <h2>Perguntas Frequentes</h2>
+        <p>Tire suas dúvidas sobre nossos produtos e serviços</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Quais marcas de móveis vocês trabalham?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">Trabalhamos com as principais marcas do mercado nacional. Consulte-nos sobre disponibilidade de marcas e modelos específicos.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Vocês fazem entrega e montagem?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">Sim, realizamos entrega e montagem em Guarapari e região com profissionais qualificados. Consulte as condições para outras localidades.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Vocês fazem móveis planejados?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">Sim, desenvolvemos projetos personalizados de móveis planejados sob medida para diversos ambientes. Agende uma visita para avaliação.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Vocês fornecem dados pessoais de clientes?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">NÃO. A Sul Móveis NÃO fornece, compartilha ou divulga dados pessoais de clientes ou terceiros. Respeitamos integralmente a Lei Geral de Proteção de Dados (LGPD).</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Qual a política de troca e reembolso?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">O cliente tem até 7 dias corridos após o recebimento para solicitar troca ou reembolso, conforme Código de Defesa do Consumidor. Consulte nossa <button class="btn-legal-link" onclick="openModal('reembolso')" style="background:none; border:none; color:#C49A6C; cursor:pointer; text-decoration:underline;">Política de Troca e Reembolso</button> completa.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Quais as formas de pagamento aceitas?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">Aceitamos cartões de crédito, débito, PIX e dinheiro. Consulte-nos sobre condições especiais de parcelamento.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="cookie-banner" id="cookieBanner">
+  <!-- CONTACT SECTION -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Fale Conosco</span>
+        <h2>Entre em Contato</h2>
+        <p>Estamos prontos para atendê-lo pessoalmente ou pelos nossos canais digitais</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Endereço</h3>
+          <p>Rua [INSERIR ENDEREÇO], nº [XXX]</p>
+          <p>Guarapari/ES</p>
+          <p>CEP: [INSERIR CEP]</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+          <h3>Telefone</h3>
+          <p><a href="tel:+552730000000">(27) 3000-0000</a></p>
+          <p><a href="https://wa.me/5527999999999">(27) 99999-9999 (WhatsApp)</a></p>
+          <p>Segunda a Sexta: 9h às 18h</p>
+          <p>Sábado: 9h às 13h</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <h3>E-mail</h3>
+          <p><a href="mailto:contato@sulmoveis.com.br">contato@sulmoveis.com.br</a></p>
+          <p><a href="mailto:vendas@sulmoveis.com.br">vendas@sulmoveis.com.br</a></p>
+          <p>Respondemos em até 24h úteis</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-```
-<p>
-    Utilizamos cookies para melhorar sua experiência de navegação.
-    Ao continuar utilizando este site, você declara estar ciente de
-    nossa Política de Cookies e Política de Privacidade.
-</p>
+  <!-- MAP SECTION -->
+  <section class="map-section">
+    <div class="container">
+      <div class="map-container">
+        <div class="map-placeholder">
+          <i class="fas fa-map"></i>
+          <h3>Estamos localizados em Guarapari</h3>
+          <p>Rua [INSERIR ENDEREÇO] - Centro, Guarapari/ES</p>
+          <a href="https://maps.google.com" target="_blank" class="btn btn-outline" style="margin-top: 1rem;">Ver no Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="cookie-buttons">
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Sul Móveis</span>
+          </div>
+          <p style="font-size: 0.85rem; margin-bottom: 1rem;">Móveis e decoração desde 2018. Qualidade e atendimento personalizado em Guarapari.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <div class="footer-links">
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#moveis">Móveis</a>
+            <a href="#decoracao">Decoração</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contato">Contato</a>
+          </div>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <div class="footer-links">
+            <button onclick="openModal('privacidade')">Política de Privacidade</button>
+            <button onclick="openModal('lgpd')">Política de LGPD</button>
+            <button onclick="openModal('reembolso')">Política de Troca e Reembolso</button>
+          </div>
+        </div>
+        <div>
+          <h4>Dados da Empresa</h4>
+          <div class="footer-data">
+            <p><strong>Razão Social:</strong> Sul Moveis LTDA</p>
+            <p><strong>Nome Fantasia:</strong> Sul Móveis</p>
+            <p><strong>CNPJ:</strong> 31.472.898/0001-24</p>
+            <p><strong>Fundação:</strong> 11/09/2018</p>
+            <p><strong>Atividade:</strong> 47.54-7-01</p>
+            <p><strong>Situação:</strong> Ativa</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>©️ 2026 Sul Moveis LTDA — CNPJ 31.472.898/0001-24. Todos os direitos reservados.</p>
+        <div class="footer-bottom-links">
+          <button onclick="openModal('privacidade')">Privacidade</button>
+          <button onclick="openModal('lgpd')">LGPD</button>
+          <button onclick="openModal('reembolso')">Troca e Reembolso</button>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <button
-        class="cookie-btn reject"
-        onclick="recusarCookies()">
-        Recusar
-    </button>
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-content">
+      <h3><i class="fas fa-cookie-bite"></i> Utilizamos Cookies</h3>
+      <p>Este site utiliza cookies para melhorar sua experiência de navegação. Ao clicar em "Aceitar", você consente com o uso de cookies conforme nossa <button onclick="openModal('privacidade')" style="background:none; border:none; color:#C49A6C; cursor:pointer;">Política de Privacidade</button>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary" id="cookie-accept">Aceitar</button>
+        <button class="btn-outline-dark" id="cookie-decline" style="background:transparent; border:1px solid #ddd; padding:0.6rem;">Recusar</button>
+      </div>
+    </div>
+  </div>
 
-    <button
-        class="cookie-btn accept"
-        onclick="aceitarCookies()">
-        Aceitar
-    </button>
+  <!-- MODAL -->
+  <div class="modal" id="legal-modal">
+    <div class="modal-content">
+      <div class="modal-close">
+        <button onclick="closeModal()"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
 
-</div>
-```
+  <!-- BACK TO TOP -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
 
-</div>
-
-<script>
-    document.getElementById("ano").textContent = new Date().getFullYear();
-
-    function aceitarCookies() {
-        localStorage.setItem("cookieConsent", "accepted");
-        document.getElementById("cookieBanner").style.display = "none";
-    }
-
-    function recusarCookies() {
-        localStorage.setItem("cookieConsent", "rejected");
-        document.getElementById("cookieBanner").style.display = "none";
-    }
-
-    window.addEventListener("DOMContentLoaded", function () {
-        const consent = localStorage.getItem("cookieConsent");
-
-        if (consent === "accepted" || consent === "rejected") {
-            document.getElementById("cookieBanner").style.display = "none";
-        }
+  <script>
+    // Mobile Menu
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
     });
-</script>
 
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // Navbar scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+
+    // FAQ Accordion
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+
+    // Cookie Banner
+    const cookieBanner = document.getElementById('cookie-banner');
+    const cookieAccept = document.getElementById('cookie-accept');
+    const cookieDecline = document.getElementById('cookie-decline');
+
+    function hideCookieBanner() {
+      cookieBanner.classList.add('hidden');
+    }
+
+    if (localStorage.getItem('cookieConsent')) {
+      hideCookieBanner();
+    }
+
+    cookieAccept.addEventListener('click', () => {
+      localStorage.setItem('cookieConsent', 'accepted');
+      hideCookieBanner();
+    });
+
+    cookieDecline.addEventListener('click', () => {
+      localStorage.setItem('cookieConsent', 'declined');
+      hideCookieBanner();
+    });
+
+    // Back to Top
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTop.classList.add('show');
+      } else {
+        backToTop.classList.remove('show');
+      }
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Smooth scroll for all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        const target = document.querySelector(targetId);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Modal functions
+    const modal = document.getElementById('legal-modal');
+    const modalBody = document.getElementById('modal-body');
+
+    const policies = {
+      privacidade: {
+        title: 'Política de Privacidade',
+        content: `<p><strong>Última atualização:</strong> Março de 2026</p>
+        <p>A <strong>Sul Moveis LTDA</strong> (CNPJ 31.472.898/0001-24) valoriza e respeita a privacidade de seus clientes e visitantes.</p>
+        <h2>1. Dados Coletados</h2>
+        <p>Nome completo, CPF/CNPJ, e-mail, telefone, endereço de entrega e dados de navegação.</p>
+        <h2>2. Finalidade</h2>
+        <p>Processamento de vendas, atendimento ao cliente, agendamento de entregas e montagens, comunicações comerciais e cumprimento de obrigações legais.</p>
+        <h2>3. Compartilhamento</h2>
+        <p><strong>Não compartilhamos dados com terceiros</strong>, exceto para processamento de pagamentos, emissão de notas fiscais e transportadoras responsáveis pela entrega.</p>
+        <div class="legal-notice"><strong>Aviso:</strong> Site particular, não vinculado a órgãos governamentais. Não compartilhamos dados de clientes.</div>`
+      },
+      lgpd: {
+        title: 'Política de LGPD',
+        content: `<p><strong>Última atualização:</strong> Março de 2026</p>
+        <p>Em conformidade com a <strong>Lei Geral de Proteção de Dados (Lei nº 13.709/2018)</strong>.</p>
+        <h2>Controlador</h2>
+        <p>Sul Moveis LTDA - CNPJ 31.472.898/0001-24</p>
+        <h2>Direitos do Titular</h2>
+        <ul><li>Confirmação de tratamento</li><li>Acesso aos dados</li><li>Correção de dados</li><li>Eliminação de dados</li><li>Revogação do consentimento</li><li>Portabilidade dos dados</li></ul>
+        <p><strong>E-mail:</strong> privacidade@sulmoveis.com.br</p>
+        <div class="legal-notice"><strong>Aviso:</strong> Site particular, não vinculado a órgãos governamentais.</div>`
+      },
+      reembolso: {
+        title: 'Política de Troca e Reembolso',
+        content: `<p><strong>Última atualização:</strong> Março de 2026</p>
+        <h2>Direito de Arrependimento</h2>
+        <p>7 dias corridos após o recebimento para cancelamento e reembolso integral (CDC Art. 49).</p>
+        <h2>Produtos com Defeito</h2>
+        <p>30 dias para não duráveis / 90 dias para duráveis, conforme CDC.</p>
+        <h2>Como Solicitar</h2>
+        <p>E-mail: contato@sulmoveis.com.br ou WhatsApp (27) 99999-9999</p>
+        <div class="legal-notice"><strong>Aviso:</strong> Site particular, não vinculado a órgãos governamentais.</div>`
+      }
+    };
+
+    function openModal(type) {
+      const policy = policies[type];
+      if (policy) {
+        modalBody.innerHTML = <h1>${policy.title}</h1>${policy.content};
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    // Animate elements on scroll
+    const animateElements = document.querySelectorAll('.stat-card, .product-card, .service-card, .testimonial-card, .contact-card');
+    const animateObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          animateObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    animateElements.forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px)';
+      el.style.transition = 'all 0.6s ease';
+      animateObserver.observe(el);
+    });
+  </script>
 </body>
 </html>
